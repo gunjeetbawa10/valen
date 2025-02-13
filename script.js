@@ -36,7 +36,7 @@ const outroTextContainer = document.querySelector(selector.outroText);
 const heartCount = document.querySelectorAll(selector.hearts).length;
 const middleHeart = Math.floor(heartCount / 2);
 const globalTimeline = gsap.timeline({ repeat: -1 });
-const duration = 2.5;
+const duration = 5;
 
 const eyeQuiverTimeline = gsap.timeline({ paused: true });
 eyeQuiverTimeline.to(selector.heartFace.eyeShine, {
